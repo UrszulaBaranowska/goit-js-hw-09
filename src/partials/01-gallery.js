@@ -83,7 +83,7 @@ const galleryListContent = images
 `
   )
   .join('');
-gallery.insertAdjacentHTML('beforeend', galleryElements);
-gallery.insertAdjacentHTML('afterbegin', galleryListContent);
+
+container.insertAdjacentHTML('beforeend', galleryListContent);
 
 new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
