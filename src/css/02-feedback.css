@@ -1,0 +1,49 @@
+.feedback-form {
+  width: 408px;
+  padding: 24px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+button:hover,
+button:focus {
+  background: #6c8cff;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+input,
+textarea {
+  margin-top: 8px;
+  padding: 8px;
+  font-family: inherit;
+  width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+textarea {
+  resize: none;
+}
