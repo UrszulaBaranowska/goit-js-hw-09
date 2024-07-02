@@ -1,5 +1,6 @@
 @import url('./reset.css');
 @import url('./01-gallery.css');
+@import url('./02-feedback.css');
 
 :root {
   font-family: 'Montserrat', sans-serif;
@@ -8,7 +9,6 @@
   font-weight: 400;
   color: #242424;
   background-color: #ffffff;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
