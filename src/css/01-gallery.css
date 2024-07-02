@@ -9,6 +9,7 @@
 }
 
 .gallery-item {
+  display: flex;
   cursor: pointer;
   width: calc((100% - 48px) / 3);
 }
