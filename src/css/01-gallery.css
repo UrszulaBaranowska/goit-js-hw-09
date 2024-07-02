@@ -7,11 +7,11 @@
   list-style-type: none;
   gap: 24px;
   margin-top: 100px;
+  max-width: 1340px;
 }
 
 .gallery-item {
   display: flex;
   cursor: pointer;
   width: calc((100% - 48px) / 3);
-  height: 200px;
 }
